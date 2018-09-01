@@ -1,3 +1,16 @@
 h1{
-font-family:'Lobster',cursive;
+font-family:'Arial',cursive;
+color:green;
+}
+.encrypt{
+    border-color:black;
+    border: 1px solid;
+    height:20px;
+    width:30px;
+}
+.decrypt{
+    border-color:black;
+    border:1px solid;
+    height:20px;
+    width:30px;
 }
