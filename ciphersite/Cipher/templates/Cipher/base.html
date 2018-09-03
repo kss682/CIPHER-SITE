@@ -1,17 +1,38 @@
 {% load static %}
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="{% static 'css/Cipher.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/Cipher.css' %}">
+    <link rel="stylesheet" type="text/css" href="../../static/css/Cipher.css">
 </head>
 <body>
-<h1>Cipher Project</h1>
-<b>A site for encrypting and decrypting messages</b>
-<div class="encrypt">
+    <h1>Cipher Project</h1>
+    <b>A site for encrypting and decrypting messages</b>
+    <fieldset>
+        <legend>Encryption</legend>
+        <div class="encrypt">
+            <p>
+                <label>Enter data to be encrypted:</label>
+                <input type="text" id="en_data" value="Enter text here" />
+            </p>
+            <p>
+                <label>Enter key for scrambling:</label>
+                <input type="text" id="key" value="Enter key here" /></p>
 
-</div>
-<div class="decrypt">
-
-</div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Decryption</legend>
+        <div class="decrypt">
+                <p>
+                    <label>Enter data to be decrypted:</label>
+                    <input type="text" id="de_data" value="Enter text here" />
+                </p>
+                <p>
+                    <label>Enter key for descrambling:</label>
+                    <input type="text" id="key" value="Enter key here" /></p>
+    
+            </div>
+    </fieldset>
 <h1></h1>
 </body>
 </html>

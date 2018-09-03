@@ -2,15 +2,12 @@ h1{
 font-family:'Arial',cursive;
 color:green;
 }
+
 .encrypt{
-    border-color:black;
-    border: 1px solid;
-    height:20px;
-    width:30px;
+    height:10%;
+    width:45%;
 }
 .decrypt{
-    border-color:black;
-    border:1px solid;
-    height:20px;
-    width:30px;
+    height:10%;
+    width: 45%;;
 }
