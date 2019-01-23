@@ -1,0 +1,16 @@
+.header{
+  text-align: center;
+  column-fill: auto;
+  background-color: #503A3A;
+  font-size: 32px;
+  color: #E8DDD1;
+
+}
+
+
+
+body{
+  background-color: #E8DDD1;
+  margin: 0;
+ padding: 0;
+}
