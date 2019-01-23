@@ -12,5 +12,16 @@
 body{
   background-color: #E8DDD1;
   margin: 0;
- padding: 0;
+  padding: 0;
+  background-image: url("./lock.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: 100%;   
+}
+
+
+.textBox{
+  width:200em;
+  height: 200em;
+  color: red;
+  background-color: black;
 }
