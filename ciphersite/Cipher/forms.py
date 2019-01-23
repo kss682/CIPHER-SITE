@@ -1,6 +1,5 @@
-from django import  forms
-from .models import Post
+from django import forms
 
-
-class PostForm():
-	pass
+class Encrypt(forms.Form):
+    Etext   =   forms.CharField(max_length = 200)
+    Ekey    =   forms.IntegerField()
