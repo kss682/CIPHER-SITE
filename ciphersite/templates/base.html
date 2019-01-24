@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
+
   <head>
     <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,25 +12,39 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <title>Cipher Site</title>
   </head>
+
+
   <body>
+
+    <!-- HEADER -->
+
     <div class="row container header">
         <div class="col-sm-12">
             <h1>Cipher Site</h1>
         </div>
     </div>
+
     <div class="row container" style="padding-top:100px">
-        <div class="col-sm-6 text-center">
-          <form class="form-group textBox" action = "/" method="post">
+        <div class="col-sm-6 text-center textBox">
+
+          <!-- ENCRYPTION -->
+
+          <form class="form-group encrypt" action = "/" method="post">
               {% csrf_token %}
               {{ form.as_p }}
               <button type="submit" name="submit" class="btn-primary">Encrypt</button>
           </form>
-        <h2>{{ data }}</h2>
-      </div>
-    <div class="col-sm-6 text-center">
+
+          <!-- DECRYPTION -->
+
+          <h2>{{ data }}</h2>
+
+        </div>
+
+        <div class="col-sm-6 text-center">
 
 
-    </div>
+        </div>
     </div>
 
   </body>
