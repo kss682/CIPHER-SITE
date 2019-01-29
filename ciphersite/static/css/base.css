@@ -10,18 +10,23 @@
 
 
 body{
-  background-color: #E8DDD1;
+  /* background-color: #E8DDD1; */
   margin: 0;
   padding: 0;
-  background-image: url("./lock.jpeg"); 
+  /* background-image: url("./lock.jpeg");  */
   background-repeat: no-repeat;
+  opacity: 0.8;
   background-size: 100%;   
 }
 
 
 .textBox{
-  /* width:200em;
-  /* height: 200em; */
-  color: white;
-  /* background-color: black; */ */
+  width:100vw;
+  height:50vh;
+  /* background-color: black;  */
+}
+
+.encrypt{
+  /* color:black; */
+  /* background-color: blue; */
 }
