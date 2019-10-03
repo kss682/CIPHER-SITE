@@ -29,4 +29,10 @@ body{
 .encrypt{
   /* color:black; */
   /* background-color: blue; */
+  /* width:20vw; */
+}
+
+.form-group{
+  background-color: red;
+  font-size: 5rem;
 }
